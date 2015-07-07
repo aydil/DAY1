@@ -1,0 +1,51 @@
+
+<html>
+   
+    <head>
+        
+        <title>Tuition Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+
+    </head>
+    <body>
+        
+        <div class="container"> 
+            <div class="col-md-4">
+             <h2>Tuition Calculation</h2>
+             <form action="./tuitionServlet" method="get">
+            Number of AAS course(s):
+            <input type="text" name="aasTextBox" value="0">($120)
+            <br>
+            Number of ESL course(s):
+            <input type="text" name="eslTextBox" value="0">($75)
+            <br>
+            
+            Type of Student :<br>
+            <select name="discountRateSelectBox">
+                <option>Normal</option>
+                <option>10% Discount</option>
+                <option>20% Discount</option>
+                <option>50% Discount</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Calculate">
+            </form>  
+            </div>
+        </div>
+        
+    </body>
+</html>

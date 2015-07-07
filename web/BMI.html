@@ -1,0 +1,42 @@
+
+<html>
+   
+    <head>
+        
+        <title>Body Mass Index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+
+    </head>
+    <body>
+        
+        <div class="container"> 
+            <div class="col-md-4">
+             <h2>BMI</h2>
+             <form action="./BMIServlet" method="get">
+            Weight:<br>
+            <input type="text" name="weightTextBox">
+            (KG)<br>
+            Height:<br>
+            <input type="text" name="heightTextBox">
+            (M)<br>
+            <br>
+            <input type="submit" value="Calculate BMI">
+            </form>  
+            </div>
+        </div>
+        
+    </body>
+</html>

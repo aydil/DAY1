@@ -1,0 +1,45 @@
+
+<html>
+   
+    <head>
+        
+        <title>Body Mass Index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+
+    </head>
+    <body>
+        
+        <div class="container"> 
+            <div class="col-md-4">
+             <h2>Grade Calculator</h2>
+             <form action="./gradeServlet" method="get">
+            Midterm:<br>
+            <input type="text" name="midTextBox" value="0">
+            (30%)<br>
+            Final:<br>
+            <input type="text" name="finalTextBox" value="0">
+            (30%)<br>
+            Project:<br>
+            <input type="text" name="projectTextBox" value="0">
+            (40%)<br>
+            <br>
+            <input type="submit" value="Get Result">
+            </form>  
+            </div>
+        </div>
+        
+    </body>
+</html>
